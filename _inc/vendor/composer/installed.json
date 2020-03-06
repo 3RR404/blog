@@ -1,0 +1,91 @@
+[
+    {
+        "name": "smottt/wideimage",
+        "version": "1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smottt/WideImage.git",
+            "reference": "c0548101aa07c0bca8a185d900b1f5844ab6716a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smottt/WideImage/zipball/c0548101aa07c0bca8a185d900b1f5844ab6716a",
+            "reference": "c0548101aa07c0bca8a185d900b1f5844ab6716a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2016-11-13T13:03:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "WideImage": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0",
+            "LGPL-2.1"
+        ],
+        "description": "An open-source PHP library for image manipulation. (With namespaces, PHP 5.3+)",
+        "homepage": "http://wideimage.sourceforge.net"
+    },
+    {
+        "name": "tamtamchik/simple-flash",
+        "version": "0.4.2",
+        "version_normalized": "0.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tamtamchik/simple-flash.git",
+            "reference": "fe4817ac57df004541eda36e965f3f16ea75cc9b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tamtamchik/simple-flash/zipball/fe4817ac57df004541eda36e965f3f16ea75cc9b",
+            "reference": "fe4817ac57df004541eda36e965f3f16ea75cc9b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.6"
+        },
+        "time": "2015-05-30T09:18:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Tamtamchik\\SimpleFlash\\": "src"
+            },
+            "files": [
+                "src/function.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yuri Tkachenko",
+                "email": "yuri.tam.tkachenko@gmail.com",
+                "homepage": "http://tamtamchika.net"
+            }
+        ],
+        "description": "Easy, framework agnostic flash notifications.",
+        "homepage": "http://github.com/tamtamchik/simple-flash",
+        "keywords": [
+            "agnostic",
+            "flash",
+            "messages",
+            "notifications"
+        ]
+    }
+]

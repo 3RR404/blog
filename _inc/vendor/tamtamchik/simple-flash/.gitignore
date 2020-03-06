@@ -1,0 +1,9 @@
+vendor/
+composer.lock
+
+tests/report
+
+ocular.phar
+coverage.clover
+update
+index.php

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tamtamchik/simple-flash": "^0.4.2",
+        "smottt/wideimage": "^1.1"
+    }
+}
